@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+
+.word{
+    color: blue;
+}
+
+.dev{
+    font:normal 200% 'century gothic';
+    font-size: 20px;
+    color: red
+}
+
+.ordinary{
+    color: lightcoral;
+    margin-left: 20px;
+    border-left: 1px solid navy;
+    padding-left: 15px;
+}
+
+.dov{
+    font-family: 'Niconne',cursive;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.dav{
+    font: normal 150% 'arial';
+    font-size: 25px;
+    color: forestgreen;
+    text-align: justify;
+}
+
+.krem, .new, .bloom, .bukt, .numb, .wh, .prog, .poz, .win{
+    font: normal 100%, 'trebuchet ms, sans-serif';
+    color: darkblue
+}
+
+.class1 :before{
+    content: "\00B7";
+    display: inline-block;
+    margin-right: 1em;
+    width: 5px;
+    }
+
+.class2 :before{
+    content: "\00A7";
+    display: inline-block;
+    margin-right: 0.5em;
+    width: 5px;
+}
+
+.class3 :before{
+    content: "\10FF";
+    display: inline-block;
+    margin-right: 1em;
+    width: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.one, .two, .three{
+    list-style-type: decimal;
+}
