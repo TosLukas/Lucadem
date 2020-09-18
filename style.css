@@ -14,6 +14,12 @@ html,body {
    color: #fff;
    font-size: 16px;
 }
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   padding: 15px;
+}
+
 h1{
    font-size: 25px;
    margin: 0 0 20px 0;
@@ -21,34 +27,35 @@ h1{
    letter-spacing: 2px;
    text-align: center;
 }
+
 h2{
    font-size: 20px;
    margin: 0 0 20px 0;
 }
+
 h3{
    font-size: 15px;
    text-decoration: underline;
    margin: 0 0 20px 0;
 }
+
 .krem, .new, .bloom, .bukt, .numb, .wh, .prog, .poz, .win {
    font: normal 100%, "trebuchet ms, sans-serif";
    color: #f75990;
 }
-.wrapper {
-   min-height: 100%;
-   overflow: hidden;
-   padding: 15px;
-}
+
 .section__1, .section__2, .section__3, .section__4{
    border-radius: 20px 20px 0px 0px;
    font-size: 14px;
    padding: 15px;
    margin: 0 0 15px 0;
 }
+
 .section__1{
    background-color: #794f45;
    font-family: 'Lato', sans-serif;
 }
+
 .section__2{
    background-color: #77608d;
    font-family: 'Montserrat', sans-serif;

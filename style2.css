@@ -1,10 +1,36 @@
-#P1{
-    background-color: #f0f0f0;
-    padding: 5px;
+*,*:before,*:after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-#P2{
-    background: orchid;
-    text-align: justify;
+html,body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   background-color: #333;
+   font-size: 16px;
+}
 
+a,a:hover{
+   color: #fff685;
+   text-decoration: none;
+}
+
+#p__1{
+   background-color: #f0f0f0;
+   padding: 5px;
+}
+
+#p__2{
+   background: orchid;
+   text-align: justify;
+}
+h2{
+   font-size: 20px;
+   margin: 0 0 20px 0;
+}
+
+h3{
+   font-size: 15px;
+   text-decoration: underline;
+   margin: 0 0 20px 0;
 }
